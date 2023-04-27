@@ -28,12 +28,6 @@ struct ContentView: View {
             //            }
             //        }.navigationTitle("Starbucks")
             TabView{
-                OrderView()
-                    .environmentObject(orderHistoty)
-                    .tabItem {
-                        Image(systemName: "list.bullet.clipboard")
-                        Text("订单")
-                    }
                 MenuView()
                     .environmentObject(cart)
                     .environmentObject(orderHistoty)
@@ -41,12 +35,14 @@ struct ContentView: View {
                         Image(systemName: "basket")
                         Text("选购")
                     }
-                OrderView()
-                    .environmentObject(orderHistoty)
-                    .tabItem {
-                        Image(systemName: "list.bullet.clipboard")
-                        Text("订单")
-                    }
+                ZStack{
+                    OrderView()
+                        .environmentObject(orderHistoty)
+                    debugButton
+                }.tabItem {
+                    Image(systemName: "list.bullet.clipboard")
+                    Text("订单")
+                }
                 AccountView()
                     .tabItem {
                         Image(systemName: "person.fill")
@@ -55,57 +51,60 @@ struct ContentView: View {
                 
             }
             
-            //调试工具
             
-            Button("服务端\n调试工具"){
-                showServerEndDebugSheet = true
-            }
-            .actionSheet(isPresented: $showServerEndDebugSheet, content: {
-                ActionSheet(title: Text("服务端调试工具"), buttons: [
-                    //        case ordered = "已下单"
-                    //case payed = "已付款"
-                    //case inProgress = "制作中"
-                    //case readyForPickup = "待取餐"
-                    //case pickedUp = "已取餐"
-                    //case orderCompleted = "订单完结"
-                    //case afterSale = "售后中"
-                    //case refunded = "已退款"
-                    
-                    .default(Text("已付款/接受付款")) {
-                        do {
-                        withAnimation(){
-                            orderHistoty.orders[0].pay()
-                        }
-                    }
-                    },
-                    .default(Text("制作中/开始制作")) {
-                        do {
-                            withAnimation(){
-                                orderHistoty.orders[0].inProgress()
-                            }
-                        }
-                    },
-                    .default(Text("待取餐/发送取餐码")) {
-                        do {
-                            withAnimation(){
-                                orderHistoty.orders[0].readyForPickup(pickupCode: (100...200).shuffled().first!)
-                            }
-                        }
-                    },
-                    .default(Text("已取餐/完结订单")) {
-                        do {
-                            withAnimation(){
-                                orderHistoty.orders[0].orderComplete()
-                            }
-                        }
-                    },
-                    
-                    
-                ])
-            })
             
         }
         
+    }
+    var debugButton: some View{
+        //调试工具
+        
+        Button("服务端\n调试工具"){
+            showServerEndDebugSheet = true
+        }
+        .actionSheet(isPresented: $showServerEndDebugSheet, content: {
+            ActionSheet(title: Text("服务端调试工具"), buttons: [
+                //        case ordered = "已下单"
+                //case payed = "已付款"
+                //case inProgress = "制作中"
+                //case readyForPickup = "待取餐"
+                //case pickedUp = "已取餐"
+                //case orderCompleted = "订单完结"
+                //case afterSale = "售后中"
+                //case refunded = "已退款"
+                
+                .default(Text("已付款/接受付款")) {
+                    do {
+                    withAnimation(){
+                        orderHistoty.orders[0].pay()
+                    }
+                }
+                },
+                .default(Text("制作中/开始制作")) {
+                    do {
+                        withAnimation(){
+                            orderHistoty.orders[0].inProgress()
+                        }
+                    }
+                },
+                .default(Text("待取餐/发送取餐码")) {
+                    do {
+                        withAnimation(){
+                            orderHistoty.orders[0].readyForPickup(pickupCode: (100...200).shuffled().first!)
+                        }
+                    }
+                },
+                .default(Text("已取餐/完结订单")) {
+                    do {
+                        withAnimation(){
+                            orderHistoty.orders[0].orderComplete()
+                        }
+                    }
+                },
+                
+                
+            ])
+        })
     }
 }
 

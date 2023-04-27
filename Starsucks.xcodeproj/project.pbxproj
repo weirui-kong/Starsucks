@@ -50,6 +50,7 @@
 		0ACA227729FA3E4900CA6D27 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		0ACA227929FA3E5500CA6D27 /* ProductSmallCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSmallCardView.swift; sourceTree = "<group>"; };
 		0ACA227B29FA3E6B00CA6D27 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		0ACA227D29FA43DD00CA6D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		0ACA224529FA3AEE00CA6D27 /* Starsucks */ = {
 			isa = PBXGroup;
 			children = (
+				0ACA227D29FA43DD00CA6D27 /* Info.plist */,
 				0ACA225529FA3CC200CA6D27 /* DataDef */,
 				0ACA226129FA3D6B00CA6D27 /* Views */,
 				0ACA224829FA3AEE00CA6D27 /* ContentView.swift */,
@@ -394,6 +396,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Starsucks/Starsucks.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Starsucks/Preview Content\"";
@@ -401,6 +404,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Starsucks/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -433,6 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Starsucks/Starsucks.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Starsucks/Preview Content\"";
@@ -440,6 +445,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Starsucks/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "bacon-and-egg-wrap.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

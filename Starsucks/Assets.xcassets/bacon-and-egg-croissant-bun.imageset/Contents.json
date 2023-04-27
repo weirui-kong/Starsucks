@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "bacon-and-egg-croissant-bun.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

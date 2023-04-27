@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "mocha-java-chip-frappuccino.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

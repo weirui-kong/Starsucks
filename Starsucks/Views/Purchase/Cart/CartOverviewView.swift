@@ -47,7 +47,7 @@ struct CartOverviewView: View{
                 
                 Button{showCheckoutView = true}label: {
                     Text("确认订单")
-                        .font(.title3)
+                        .font(.headline)
                         .padding(5)
                 }.buttonStyle(.borderedProminent)
                     .cornerRadius(20)
