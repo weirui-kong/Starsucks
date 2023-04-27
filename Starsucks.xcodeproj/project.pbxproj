@@ -11,6 +11,21 @@
 		0ACA224929FA3AEE00CA6D27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA224829FA3AEE00CA6D27 /* ContentView.swift */; };
 		0ACA224B29FA3AF000CA6D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACA224A29FA3AF000CA6D27 /* Assets.xcassets */; };
 		0ACA224F29FA3AF000CA6D27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACA224E29FA3AF000CA6D27 /* Preview Assets.xcassets */; };
+		0ACA225729FA3CD800CA6D27 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA225629FA3CD800CA6D27 /* Cart.swift */; };
+		0ACA225929FA3D0100CA6D27 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA225829FA3D0100CA6D27 /* Product.swift */; };
+		0ACA225B29FA3D1A00CA6D27 /* TestSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA225A29FA3D1A00CA6D27 /* TestSource.swift */; };
+		0ACA225E29FA3D3F00CA6D27 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA225D29FA3D3F00CA6D27 /* Order.swift */; };
+		0ACA226029FA3D5700CA6D27 /* OrderHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA225F29FA3D5700CA6D27 /* OrderHistory.swift */; };
+		0ACA226529FA3D8B00CA6D27 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA226429FA3D8B00CA6D27 /* AccountView.swift */; };
+		0ACA226829FA3DA000CA6D27 /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA226729FA3DA000CA6D27 /* OrderDetailView.swift */; };
+		0ACA226A29FA3DB600CA6D27 /* OrderSmallCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA226929FA3DB600CA6D27 /* OrderSmallCardView.swift */; };
+		0ACA226C29FA3DC700CA6D27 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA226B29FA3DC700CA6D27 /* OrderView.swift */; };
+		0ACA227229FA3E1200CA6D27 /* CartOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA227129FA3E1200CA6D27 /* CartOverviewView.swift */; };
+		0ACA227429FA3E2D00CA6D27 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA227329FA3E2D00CA6D27 /* CheckoutView.swift */; };
+		0ACA227629FA3E3D00CA6D27 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA227529FA3E3D00CA6D27 /* MenuView.swift */; };
+		0ACA227829FA3E4900CA6D27 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA227729FA3E4900CA6D27 /* ProductListView.swift */; };
+		0ACA227A29FA3E5500CA6D27 /* ProductSmallCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA227929FA3E5500CA6D27 /* ProductSmallCardView.swift */; };
+		0ACA227C29FA3E6B00CA6D27 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA227B29FA3E6B00CA6D27 /* QRCodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +35,21 @@
 		0ACA224A29FA3AF000CA6D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ACA224C29FA3AF000CA6D27 /* Starsucks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Starsucks.entitlements; sourceTree = "<group>"; };
 		0ACA224E29FA3AF000CA6D27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0ACA225629FA3CD800CA6D27 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		0ACA225829FA3D0100CA6D27 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		0ACA225A29FA3D1A00CA6D27 /* TestSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSource.swift; sourceTree = "<group>"; };
+		0ACA225D29FA3D3F00CA6D27 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		0ACA225F29FA3D5700CA6D27 /* OrderHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistory.swift; sourceTree = "<group>"; };
+		0ACA226429FA3D8B00CA6D27 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		0ACA226729FA3DA000CA6D27 /* OrderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
+		0ACA226929FA3DB600CA6D27 /* OrderSmallCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSmallCardView.swift; sourceTree = "<group>"; };
+		0ACA226B29FA3DC700CA6D27 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		0ACA227129FA3E1200CA6D27 /* CartOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartOverviewView.swift; sourceTree = "<group>"; };
+		0ACA227329FA3E2D00CA6D27 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		0ACA227529FA3E3D00CA6D27 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		0ACA227729FA3E4900CA6D27 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		0ACA227929FA3E5500CA6D27 /* ProductSmallCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSmallCardView.swift; sourceTree = "<group>"; };
+		0ACA227B29FA3E6B00CA6D27 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +82,10 @@
 		0ACA224529FA3AEE00CA6D27 /* Starsucks */ = {
 			isa = PBXGroup;
 			children = (
-				0ACA224629FA3AEE00CA6D27 /* StarsucksApp.swift */,
+				0ACA225529FA3CC200CA6D27 /* DataDef */,
+				0ACA226129FA3D6B00CA6D27 /* Views */,
 				0ACA224829FA3AEE00CA6D27 /* ContentView.swift */,
+				0ACA224629FA3AEE00CA6D27 /* StarsucksApp.swift */,
 				0ACA224A29FA3AF000CA6D27 /* Assets.xcassets */,
 				0ACA224C29FA3AF000CA6D27 /* Starsucks.entitlements */,
 				0ACA224D29FA3AF000CA6D27 /* Preview Content */,
@@ -67,6 +99,91 @@
 				0ACA224E29FA3AF000CA6D27 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0ACA225529FA3CC200CA6D27 /* DataDef */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA225C29FA3D3000CA6D27 /* Order */,
+				0ACA225629FA3CD800CA6D27 /* Cart.swift */,
+				0ACA225829FA3D0100CA6D27 /* Product.swift */,
+				0ACA225A29FA3D1A00CA6D27 /* TestSource.swift */,
+			);
+			path = DataDef;
+			sourceTree = "<group>";
+		};
+		0ACA225C29FA3D3000CA6D27 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA225D29FA3D3F00CA6D27 /* Order.swift */,
+				0ACA225F29FA3D5700CA6D27 /* OrderHistory.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		0ACA226129FA3D6B00CA6D27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA226D29FA3DDC00CA6D27 /* Purchase */,
+				0ACA226629FA3D9900CA6D27 /* Order */,
+				0ACA226229FA3D7300CA6D27 /* Account */,
+				0ACA227B29FA3E6B00CA6D27 /* QRCodeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0ACA226229FA3D7300CA6D27 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA226429FA3D8B00CA6D27 /* AccountView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		0ACA226629FA3D9900CA6D27 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA226729FA3DA000CA6D27 /* OrderDetailView.swift */,
+				0ACA226929FA3DB600CA6D27 /* OrderSmallCardView.swift */,
+				0ACA226B29FA3DC700CA6D27 /* OrderView.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		0ACA226D29FA3DDC00CA6D27 /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA227029FA3DF400CA6D27 /* Product */,
+				0ACA226E29FA3DE400CA6D27 /* Cart */,
+				0ACA226F29FA3DEE00CA6D27 /* Checkout */,
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		0ACA226E29FA3DE400CA6D27 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA227129FA3E1200CA6D27 /* CartOverviewView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		0ACA226F29FA3DEE00CA6D27 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA227329FA3E2D00CA6D27 /* CheckoutView.swift */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		0ACA227029FA3DF400CA6D27 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA227529FA3E3D00CA6D27 /* MenuView.swift */,
+				0ACA227729FA3E4900CA6D27 /* ProductListView.swift */,
+				0ACA227929FA3E5500CA6D27 /* ProductSmallCardView.swift */,
+			);
+			path = Product;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +256,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACA225E29FA3D3F00CA6D27 /* Order.swift in Sources */,
+				0ACA227229FA3E1200CA6D27 /* CartOverviewView.swift in Sources */,
+				0ACA225B29FA3D1A00CA6D27 /* TestSource.swift in Sources */,
 				0ACA224929FA3AEE00CA6D27 /* ContentView.swift in Sources */,
+				0ACA227A29FA3E5500CA6D27 /* ProductSmallCardView.swift in Sources */,
+				0ACA226A29FA3DB600CA6D27 /* OrderSmallCardView.swift in Sources */,
+				0ACA225929FA3D0100CA6D27 /* Product.swift in Sources */,
+				0ACA226529FA3D8B00CA6D27 /* AccountView.swift in Sources */,
+				0ACA227629FA3E3D00CA6D27 /* MenuView.swift in Sources */,
+				0ACA227429FA3E2D00CA6D27 /* CheckoutView.swift in Sources */,
+				0ACA227829FA3E4900CA6D27 /* ProductListView.swift in Sources */,
+				0ACA225729FA3CD800CA6D27 /* Cart.swift in Sources */,
+				0ACA227C29FA3E6B00CA6D27 /* QRCodeView.swift in Sources */,
 				0ACA224729FA3AEE00CA6D27 /* StarsucksApp.swift in Sources */,
+				0ACA226C29FA3DC700CA6D27 /* OrderView.swift in Sources */,
+				0ACA226029FA3D5700CA6D27 /* OrderHistory.swift in Sources */,
+				0ACA226829FA3DA000CA6D27 /* OrderDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +401,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -277,9 +410,9 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -307,6 +440,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -315,9 +449,9 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;

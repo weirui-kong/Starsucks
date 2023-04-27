@@ -3,7 +3,7 @@
 //  Starsucks
 //
 //  Created by 孔维锐 on 2023-04-27.
-//
+//  Manually migratedn from precedent Playground file.
 
 import SwiftUI
 
